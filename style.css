@@ -1,0 +1,42 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px;
+}
+h1 {
+  color: #b10062;
+}
+.photo {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.gifts {
+  margin: 20px;
+}
+.gift {
+  display: inline-block;
+  font-size: 50px;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+.gift:hover {
+  transform: scale(1.2);
+}
+.message-box {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+  font-style: italic;
+  display: none;
+}
